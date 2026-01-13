@@ -23,7 +23,8 @@ public class LoginTest {
 		driver.findElement(By.id("inputUsername")).sendKeys("ashwini");
 		driver.findElement(By.name("inputPassword")).sendKeys("test");
 		driver.findElement(By.className("signInBtn")).click();
-		
+		System.out.println("Hello1");
+		System.out.println("Hello2");
 		Thread.sleep(2000);
 		
 		String message = driver.findElement(By.className("error")).getText();
