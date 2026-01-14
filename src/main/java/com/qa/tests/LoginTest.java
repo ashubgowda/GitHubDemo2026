@@ -25,6 +25,8 @@ public class LoginTest {
 		driver.findElement(By.className("signInBtn")).click();
 		System.out.println("Hello1");
 		System.out.println("Hello2");
+		System.out.println("Hello4");
+		System.out.println("Hello5");
 		Thread.sleep(2000);
 		
 		String message = driver.findElement(By.className("error")).getText();
