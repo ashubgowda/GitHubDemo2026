@@ -23,13 +23,9 @@ public class LoginTest {
 		driver.findElement(By.id("inputUsername")).sendKeys("ashwini");
 		driver.findElement(By.name("inputPassword")).sendKeys("test");
 		driver.findElement(By.className("signInBtn")).click();
-		System.out.println("Hello1");
-		System.out.println("Hello2");
-		System.out.println("Hello4");
-		System.out.println("Hello5");
-		System.out.println("Hello5");
+		
 		System.out.println("Avighna");
-		v
+	
 		System.out.println("Ashwini");
 		Thread.sleep(2000);
 		
